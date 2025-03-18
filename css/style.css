@@ -1,0 +1,89 @@
+
+:root{
+    --menu-hover:#FE8F01;
+    --color-general:#898989;
+    --color-titulos:#282d33;
+    --color-iconos: #e0e0e0;
+    --color-checks:#53c3c9;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Catamaran', sans-serif;
+    color: var(--color-general);
+}
+
+header{
+    background-color: #FFF;
+    padding: 5px 0;
+    border-bottom:1px solid #eee;
+    margin-bottom:10px;
+}
+
+footer{
+    background-color: #333333;
+    color: #bababa;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.hero {
+    background: white;
+    text-align: center;
+    padding: 100px 0 0;
+}
+
+.services {
+    background: var(--color-general);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.services .icon {
+    color: var(--color-iconos);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.services .check {
+    color: var(--color-checks);
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.cta {
+    background-image: url("../img/using-touchscreen.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    position: relative;
+}
+.cta button {
+    background-color: var(--menu-hover);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta button:hover {
+    background-color: var(--color-checks);
+}
+
+.customers {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.customers img {
+    max-width: 150px;
+}
+
